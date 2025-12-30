@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playvideo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="IMAGES/menu.png" class="menu-icon" alt="Menu">
+            <img src="IMAGES/2.png" class="logo" alt="Logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="IMAGES/search.png" alt="Search">
+            </div>
+            <img src="IMAGES/voice-search.png" class="mic-icon" alt="Voice Search">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="IMAGES/upload.png" alt="Upload">
+            <img src="IMAGES/more.png" alt="More">
+            <img src="IMAGES/notification.png" alt="Notifications">
+            <img src="IMAGES/anand.jpg" class="user-icon" alt="User">
+        </div>
+    </nav>
+
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="IMAGES/video.mp4" type="video/mp4">
+                </video>
+                <div class="tags">
+                    <a href="">#coding</a> <a href="">#css</a> <a href="">#html</a>
+                </div>
+                <h3>best YouTube</h3>
+                <div class="play-video-info">
+                    <p>2m views &bull; 3 days ago</p>
+                    <div>
+                        <a href=""><img src="IMAGES/like.png">30000</a>
+                        <a href=""><img src="IMAGES/dislike.png">30000</a>
+                        <a href=""><img src="IMAGES/share.png">Share</a>
+                        <a href=""><img src="IMAGES/save.png">Save</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="publisher">
+                    <img src="IMAGES/Jack.png" alt="">
+                    <div>
+                        <p>easy tutorials</p>
+                        <span>500k Subscribers</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="video-description">
+                    <p>channel make you happy</p>
+                    <p>channel make you happy</p>
+                    <hr>
+                    <h4>200 Comments</h4>
+                    <!-- Write a comment box -->
+                    <div class="comment-box">
+                        <img src="IMAGES/anand.jpg" alt="Your Avatar" class="comment-avatar">
+                        <form class="comment-form">
+                            <textarea placeholder="Add a public comment..." rows="3"></textarea>
+                            <div class="comment-actions">
+                                <button type="button" class="cancel-btn">Cancel</button>
+                                <button type="submit" class="submit-btn">Comment</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Sample comments added below -->
+                    <div class="comment">
+                        <img src="IMAGES/user1.jpg" alt="User1" class="comment-avatar">
+                        <div class="comment-content">
+                            <p><strong>User1:</strong> Great video! Learned a lot about HTML and CSS.</p>
+                            <div class="comment-actions">
+                                <a href="" class="like-btn"><img src="IMAGES/like.png" alt="Like"> 5</a>
+                                <a href="" class="dislike-btn"><img src="IMAGES/dislike.png" alt="Dislike"> 1</a>
+                                <a href="" class="reply-btn">Reply</a>
+                                <span>1 day ago</span>
+                            </div>
+                            <!-- Replies section -->
+                            <div class="replies">
+                                <div class="reply">
+                                    <img src="IMAGES/user4.jpg" alt="User4" class="comment-avatar">
+                                    <div class="comment-content">
+                                        <p><strong>User4:</strong> Totally agree!</p>
+                                        <div class="comment-actions">
+                                            <a href="" class="like-btn"><img src="IMAGES/like.png" alt="Like"> 2</a>
+                                            <a href="" class="dislike-btn"><img src="IMAGES/dislike.png" alt="Dislike"> 0</a>
+                                            <a href="" class="reply-btn">Reply</a>
+                                            <span>1 day ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="IMAGES/user2.jpg" alt="User2" class="comment-avatar">
+                        <div class="comment-content">
+                            <p><strong>User2:</strong> Thanks for the tutorial. Can you make one on JavaScript next?</p>
+                            <div class="comment-actions">
+                                <a href="" class="like-btn"><img src="IMAGES/like.png" alt="Like"> 10</a>
+                                <a href="" class="dislike-btn"><img src="IMAGES/dislike.png" alt="Dislike"> 0</a>
+                                <a href="" class="reply-btn">Reply</a>
+                                <span>2 days ago</span>
+                            </div>
+                            <!-- Replies section -->
+                            <div class="replies">
+                                <div class="reply">
+                                    <img src="IMAGES/Jack.png" alt="Jack" class="comment-avatar">
+                                    <div class="comment-content">
+                                        <p><strong>easy tutorials:</strong> Sure, stay tuned!</p>
+                                        <div class="comment-actions">
+                                            <a href="" class="like-btn"><img src="IMAGES/like.png" alt="Like"> 8</a>
+                                            <a href="" class="dislike-btn"><img src="IMAGES/dislike.png" alt="Dislike"> 0</a>
+                                            <a href="" class="reply-btn">Reply</a>
+                                            <span>2 days ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="IMAGES/user3.jpg" alt="User3" class="comment-avatar">
+                        <div class="comment-content">
+                            <p><strong>User3:</strong> Awesome content! Subscribed.</p>
+                            <div class="comment-actions">
+                                <a href="" class="like-btn"><img src="IMAGES/like.png" alt="Like"> 7</a>
+                                <a href="" class="dislike-btn"><img src="IMAGES/dislike.png" alt="Dislike"> 0</a>
+                                <a href="" class="reply-btn">Reply</a>
+                                <span>3 days ago</span>
+                            </div>
+                            <!-- Replies section -->
+                            <div class="replies">
+                                <!-- No replies for this comment -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of sample comments -->
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="IMAGES/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best channel</a>
+                        <p>easy tutorials</p>
+                        <p>15k views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>\
